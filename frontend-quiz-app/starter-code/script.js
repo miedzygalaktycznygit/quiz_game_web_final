@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function applyDarkMode() {
         document.documentElement.style.setProperty('--border_color', 'hsl(187, 19.10%, 90.80%)');
         document.body.style.backgroundColor = 'hsl(215.63, 24.62%, 25.49%)';
-        document.body.style.backgroundImage = 'url("/frontend-quiz-app/starter-code/assets/images/pattern-background-desktop-dark.svg")';
+        document.body.style.backgroundImage = 'url("/assets/images/pattern-background-desktop-dark.svg")';
         text.style.color = 'white';
         if(window.location.pathname.includes("/")) {
             if(samllText)samllText.style.color = 'white';
@@ -54,14 +54,14 @@ document.addEventListener('DOMContentLoaded', function () {
         if(css)css.style.color = 'white';
         if(js)js.style.color = 'white';
         if(accessibility)accessibility.style.color = 'white';
-        if(light)light.src = '/frontend-quiz-app/starter-code/assets/images/icon-sun-dark.svg';
-        if(dark)dark.src = '/frontend-quiz-app/starter-code/assets/images/icon-moon-light.svg';
+        if(light)light.src = '/assets/images/icon-sun-dark.svg';
+        if(dark)dark.src = '/assets/images/icon-moon-light.svg';
     }
 
     function applyLightMode() {
         document.documentElement.style.setProperty('--border_color', 'hsl(216, 26%, 32%)');
         document.body.style.backgroundColor = 'hsl(217, 19%, 73%)';
-        document.body.style.backgroundImage = 'url("/frontend-quiz-app/starter-code/assets/images/pattern-background-desktop-light.svg")';
+        document.body.style.backgroundImage = 'url("/assets/images/pattern-background-desktop-light.svg")';
         text.style.color = 'rgb(45, 57, 73)';
         if(window.location.pathname.includes("/")) {
             if(samllText)samllText.style.color = 'rgb(45, 57, 73)';
@@ -77,8 +77,8 @@ document.addEventListener('DOMContentLoaded', function () {
         if(css)css.style.color = 'rgb(45, 57, 73)';
         if(js)js.style.color = 'rgb(45, 57, 73)';
         if(accessibility)accessibility.style.color = 'rgb(45, 57, 73)';
-        if(light)light.src = '/frontend-quiz-app/starter-code/assets/images/icon-sun-light.svg';
-        if(dark)dark.src = '/frontend-quiz-app/starter-code/assets/images/icon-moon-dark.svg';
+        if(light)light.src = '/assets/images/icon-sun-light.svg';
+        if(dark)dark.src = '/assets/images/icon-moon-dark.svg';
     }
 
     if (html_2) {
