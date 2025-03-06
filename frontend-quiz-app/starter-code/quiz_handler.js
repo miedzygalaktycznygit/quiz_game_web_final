@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('quiz_accessibility_2')
     ];
 
-    fetch('/frontend-quiz-app/starter-code/data.json')
+    fetch('/data.json')
         .then(res => res.json())
         .then(data => {
 
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 next_or_submit.textContent = "Play again";
                 submit_button.addEventListener('click', function () {
                     localStorage.setItem('quizScore', 0);
-                    window.location.href = '/frontend-quiz-app/starter-code/index.html';
+                    window.location.href = '/index.html';
                     console.log('play again');
                 });
             }
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     } 
                     else if(question_counter >= 10){
-                        window.location.href = '/frontend-quiz-app/starter-code/result.html';
+                        window.location.href = '/result.html';
                     }else {
                         for(let i = 0; i < 4; i++){
                             buttons[i].style.border = '';
