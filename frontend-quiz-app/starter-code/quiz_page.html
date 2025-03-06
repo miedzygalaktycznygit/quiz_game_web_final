@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/frontend-quiz-app/quiz_style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Frontend quiz app</title>
+</head>
+<body>
+  <div class="container">
+    <div id="light_and_dark_mode">
+      <div id="subject">
+        <div class="icon">
+          
+        </div>
+        <h2 id="h2">HTML</h2>
+      </div>
+      <div id="modes">
+        <div id="light_mode">
+          <img src="/frontend-quiz-app/starter-code/assets/images/icon-sun-light.svg" alt="light mode icon">
+        </div>
+        <input type="checkbox" id="darkmode-toogle">
+        <label for="darkmode-toogle"></label>
+        <div id="dark_mode">
+          <img src="/frontend-quiz-app/starter-code/assets/images/icon-moon-dark.svg" alt="dark mode icon">
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="text">
+        <p id="p">Question 1 of 10</p>
+        <h1 id="h1">Which of the following is the correct structure for an HTML document?</h1>
+        <div id="progress_bar">
+          <div id="progress"></div>
+        </div>
+      </div>
+      <div class="quiz">
+        <button id="quiz_html_2">
+          <div class="icon">
+            <p class="answer">A</p>
+          </div>
+          <h2 id="A">TEST</h2>
+        </button>
+        <button id="quiz_css_2">
+          <div class="icon">
+            <p class="answer">B</p>
+          </div>
+          <h2 id="B">CSS</h2>
+        </button>
+        <button id="quiz_js_2">
+          <div class="icon"> 
+            <p class="answer">C</p>
+          </div>  
+          <h2 id="C">Javascript</h2>
+        </button>
+        <button id="quiz_accessibility_2">
+          <div class="icon">
+            <p class="answer">D</p>
+          </div>
+          <h2 id="D">Accessibility</h2>
+        </button>
+        <button id="answer_button">
+          <h2 id="submit_next">Submit answer</h2>
+        </button>
+      </div>
+    </main>
+  </div>  
+  <script src="/frontend-quiz-app/script.js" defer></script>
+  <script src="/frontend-quiz-app/quiz_handler.js" defer></script>
+</body>
+</html>

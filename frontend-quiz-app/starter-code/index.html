@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/frontend-quiz-app/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Frontend quiz app</title>
+</head>
+<body>
+  <div class="container">
+    <div id="light_and_dark_mode">
+      <div id="light_mode">
+        <img src="/frontend-quiz-app/starter-code/assets/images/icon-sun-light.svg" alt="light mode icon">
+      </div>
+      <input type="checkbox" id="darkmode-toogle">
+      <label for="darkmode-toogle"></label>
+      <div id="dark_mode">
+        <img src="/frontend-quiz-app/starter-code/assets/images/icon-moon-dark.svg" alt="dark mode icon">
+      </div>
+    </div>
+    <main>
+      <div class="text">
+        <h1 id="h1">Welcome to the Frontend Quiz!</h1>
+        <p id="p">Pick a subject to get started.</p>
+      </div>
+      <div class="quiz">
+        <a href="/frontend-quiz-app/starter-code/quiz_page.html">
+          <button id="quiz_html">
+          <div class="icon">
+              <img src="/frontend-quiz-app/starter-code/assets/images/icon-html.svg" alt="html icon">
+          </div>
+          <h2>HTML</h2>
+          </button>
+        </a>
+        <a href="/frontend-quiz-app/starter-code/quiz_page.html">
+          <button id="quiz_css">
+            <div class="icon">
+              <img src="/frontend-quiz-app/starter-code/assets/images/icon-css.svg" alt="css icon">
+            </div>
+            <h2>CSS</h2>
+          </button>
+        </a>
+        <a href="/frontend-quiz-app/starter-code/quiz_page.html">
+          <button id="quiz_js">
+            <div class="icon"> 
+              <img src="/frontend-quiz-app/starter-code/assets/images/icon-js.svg" alt="js icon">
+            </div>  
+            <h2>Javascript</h2>
+          </button>
+        </a>
+        <a href="/frontend-quiz-app/starter-code/quiz_page.html">
+          <button id="quiz_accessibility">
+            <div class="icon">
+              <img src="/frontend-quiz-app/starter-code/assets/images/icon-accessibility.svg" alt="accessibility icon">
+            </div>
+            <h2>Accessibility</h2>
+          </button>
+        </a>
+      </div>
+    </main>
+  </div>  
+  <script src="/frontend-quiz-app/script.js" defer></script>
+</body>
+</html>

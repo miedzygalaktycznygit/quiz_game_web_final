@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/frontend-quiz-app/quiz_style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Frontend quiz app</title>
+</head>
+<body>
+  <div class="container">
+    <div id="light_and_dark_mode">
+      <div id="subject">
+        <div class="icon">
+          
+        </div>
+        <h2 id="h2">HTML</h2>
+      </div>
+      <div id="modes">
+        <div id="light_mode">
+          <img src="/frontend-quiz-app/starter-code/assets/images/icon-sun-light.svg" alt="light mode icon">
+        </div>
+        <input type="checkbox" id="darkmode-toogle">
+        <label for="darkmode-toogle"></label>
+        <div id="dark_mode">
+          <img src="/frontend-quiz-app/starter-code/assets/images/icon-moon-dark.svg" alt="dark mode icon">
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="text">
+        <h1 id="h1">Quiz completed You scored...</h1>
+      </div>
+      <div class="quiz">
+        <div id="score">
+            <div id="quiz_icon">
+                <div class="icon2">
+
+                </div>
+                <p id="witch_quiz">test</p>
+            </div>
+            <div id="score_text">
+                <p class="pp">8</p>
+                <p>out of 10</p>
+            </div>
+        </div>
+        <button id="answer_button">
+          <h2 id="submit_next">Submit answer</h2>
+        </button>
+      </div>
+    </main>
+  </div>  
+  <script src="/frontend-quiz-app/script.js" defer></script>
+  <script src="/frontend-quiz-app/quiz_handler.js" defer></script>
+</body>
+</html>
