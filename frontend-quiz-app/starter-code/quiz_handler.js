@@ -116,6 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
             function progress_bar() {
                 const progress = document.getElementById('progress');
                 progress.style.width = `${question_counter * 9.8}%`;
+                is_set = false;
             }
 
             let i = 0;
