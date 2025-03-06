@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "my-font";
-  src: url("/frontend-quiz-app/starter-code/assets/fonts/Rubik-VariableFont_wght.ttf");
+  src: url("/assets/fonts/Rubik-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "my-font2";
-  src: url("/frontend-quiz-app/starter-code/assets/fonts/Rubik-Italic-VariableFont_wght.ttf");
+  src: url("/assets/fonts/Rubik-Italic-VariableFont_wght.ttf");
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -25,7 +25,7 @@ body {
   height: fit-content;
   font-family: "my-font";
   background-color: white;
-  background-image: url("/frontend-quiz-app/starter-code/assets/images/pattern-background-desktop-light.svg");
+  background-image: url("/assets/images/pattern-background-desktop-light.svg");
   background-color: hsl(217, 19%, 73%);
 }
 
@@ -54,7 +54,7 @@ p, h1, h2, h3, h4, h5, h6 {
     min-height: fit-content;
     font-family: "my-font";
     background-color: white;
-    background-image: url("/frontend-quiz-app/starter-code/assets/images/pattern-background-mobile-dark.svg");
+    background-image: url("/assets/images/pattern-background-mobile-dark.svg");
   }
   img, picture, video, canvas, svg {
     display: block;
@@ -532,7 +532,7 @@ p, h1, h2, h3, h4, h5, h6 {
     min-height: fit-content;
     font-family: "my-font";
     background-color: white;
-    background-image: url("/frontend-quiz-app/starter-code/assets/images/pattern-background-mobile-dark.svg");
+    background-image: url("/assets/images/pattern-background-mobile-dark.svg");
   }
   img, picture, video, canvas, svg {
     display: block;
